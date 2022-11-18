@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-Sans';
+}
+
+.container {
+    position: absolute;
+    margin-top: 12%;
+}
+
+.titulo {
+    margin-left: 21%;
+    font-size: 30px;
+}
+
+.topico {
+    margin: 40px;
+    font-size: 22px;
+    text-indent: 20px;
+}
+
+.topico p {
+    padding: 8px;
+}
+
+.img {
+    width: 50%;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo_2 {
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+.sub_topico {
+    margin: 40px;
+    font-size: 22px;
+    text-indent: 20px;
+}
+
+.img_2 {
+    width: 35%;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sub_topico p {
+    padding: 8px;
+}
+

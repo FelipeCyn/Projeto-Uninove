@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open-Sans';
+}
+
+.titulo {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 27%;
+}
+
+.titulo h3 {
+    position: absolute;
+    margin-left: 18%;
+    font-size: 25px;
+    margin-top: 7%;
+}
+
+.informacoes {
+    position: absolute;
+    margin-top: 25%;
+}
+
+.img {
+    width: 40%;
+    margin-top: 5px;
+    border-radius: 7px;
+    margin-left: 29%;
+    cursor: pointer;
+    transition: trasnform 0.5s;
+}
+
+.img:hover {
+    transform: translateY(5px);
+    transition: all .5s ease-in;
+}
+
+.quadro {
+    padding: 10px;
+}
+
+.quadro p {
+    font-size: 25px;
+    margin-left: 42%;
+    margin-top: 2px;
+    color: black;
+    transition: transform 0.5s;
+}
+
+.quadro p:hover {
+   transform: translateY(5px);
+   transition: all .5s ease-in;
+}
+
+
+
+.quadro .prg1 {
+    margin-left: 35%;
+    margin-top: 2px;
+}
+
+.quadro .prg2 {
+    margin-left: 46%;
+    margin-top: 2px;
+}
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    margin-top: 147%;
+    background: #111;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+    color: yellow;
+}
+
+.footer-bottom {
+    background: #000;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
